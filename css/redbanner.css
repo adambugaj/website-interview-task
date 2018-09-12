@@ -1,0 +1,135 @@
+.container {
+  /* Style for "Prostokąt" */
+  width: 100%;
+  max-width: 1530px;
+  max-height: 300px;
+  margin: auto;
+  display: block;
+  overflow: hidden;
+  background-color: #ea2423;
+  overflow: auto;
+}
+
+@media only screen and (max-width:700px) {
+  .container {
+    width: 100%;
+    max-height: 400px;
+  }
+  .clock {
+    margin: auto;
+    width: 50%;
+    padding-left: 0;
+  }
+  .blacknote {
+    display: inline-block;
+    margin: auto;
+    max-width: 35%;
+    max-height: 15%;
+  }
+  .gratis {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    max-width: 16%;
+  }
+  .rabat {
+    display: none;
+  }
+  .counter {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:701px) {
+  .container {
+    width: 90%;
+    max-height: 400px;
+  }
+
+  .clock {
+    display: inline-block;
+    margin: auto;
+    padding-left: 30px;
+  }
+
+  .blacknote {
+    display: inline-block;
+    position: absolute;
+    max-width: 30%;
+    margin-top: 30px;
+    margin-left: -40px;
+
+  }
+
+  .gratis {
+    display: inline;
+    position: absolute;
+    width: 40%;
+    top: 192px;
+
+  }
+
+  .rabat {
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    top: 130px;
+    right: 60px;
+  }
+  .counter {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:850px) {
+  .clock {
+    display: inline-block;
+    padding-left: 62px;
+  }
+
+  .blacknote {
+    max-width: 30%;
+    margin-top: 30px;
+    margin-left: -40px;
+  }
+
+  .rabat {
+    max-width: 40%;
+    top: 130px;
+    margin-right: 60px;
+  }
+}
+
+@media only screen and (min-width:1050px) {
+  .rabat {
+
+    max-width: 30%;
+    top: 100px;
+    margin-right: 60px;
+  }
+}
+
+@media only screen and (min-width:1270px) {
+  .rabat {
+    display: none;
+
+  }
+  .counter {
+    display: inline-block;
+    border: 3px solid #ffffff;
+    float: right;
+    margin-top: 52px;
+    margin-right: 51px;
+  }
+}
+
+@media only screen and (min-width:1530px) {
+  .rabat {
+    display: inline-block;
+    position: relative;
+    width: 15%;
+    top: -80px;
+    right: -20%;
+
+  }
+}

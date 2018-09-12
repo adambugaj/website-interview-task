@@ -1,0 +1,22 @@
+body {
+  font: 300 13px / 1.5em 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Grid */
+.container {
+  max-width: 1530px;
+  width: 100%;
+  margin: 0 auto;
+}

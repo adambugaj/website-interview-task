@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Stylowe zestawy meblowe do twojego domu">
+    <title>Outlet Meblowy - Style, Design, Furniture</title>
+
+    <!-- css links -->
+    <link href="css/style.css" rel='stylesheet' type="text/css">
+    <link href="css/redbanner.css" rel='stylesheet' type="text/css">
+    <link href="css/itemlist.css" rel='stylesheet' type="text/css">
+    <link href="css/button.css" rel='stylesheet' type="text/css">
+
+    <!-- javascript links -->
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+   <!-- Responsive Banner -->
+    <header>
+      <div class="container">
+        <div class="clock">
+          <a href="index.html">
+            <img src="img/zegarznapisem.png" alt="clock with title"/>
+          </a>
+        </div>
+        <div class="blacknote">
+          <a href="index.html" title="Go back to homepage">
+            <img src="img/blacknote.png" alt="note"/>
+          </a>
+        </div>
+        <div class="gratis">
+          <a href="index.html" title="Go back to homepage">
+            <img src="img/dostawa.png" alt="delivery"/>
+          </a>
+        </div>
+        <div class="rabat">
+          <a href="index.html" title="Go back to homepage">
+            <img src="img/rabaty.png" alt="promotion"/>
+          </a>
+        </div>
+        <div class="counter">
+          <img src="img/counter.png" alt="counter time"/>
+        </div>
+      </div>
+    </header>
+
+    <!-- info about the products -->
+    <div class="info-header">
+      <h3>PRODUKTY NA GODZINĘ 10:00</h3>
+      <p id="info">Akcja “Gorący Czwartek” nie łączy się z innymi promocjami</p>
+    </div>
+
+    <!-- List of products -->
+    <div id="wrapper1" class="wrapper" onload="items">
+    </div>
+
+    <!-- buttons for choosing the number of products -->
+    <div align="center">
+      <button onClick="getValue()" class="btn" id="button" type="button" value="2" data-num="2">2</button>
+      <button onClick="getValue1()" class="btn" id="button1" type="button" value="4">4</button>
+      <button onClick="getValue2()" class="btn" id="button2" type="button" value="8">8</button>
+    </div>
+  </body>
+</html>
